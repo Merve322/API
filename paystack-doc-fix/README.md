@@ -47,7 +47,7 @@ What should have been said:
 
    > “After this → redirect user → payment happens”
 
-6. The warning is disconnected
+5. The warning is disconnected
 
 The “Don’t use your secret key…” section:
 
