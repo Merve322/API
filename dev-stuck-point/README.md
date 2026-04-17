@@ -2,7 +2,7 @@
 ## Overview
 The goal of good documentation is to make integration clear and predictable.
 
-However, on the Paystack [“Accept Payments”]("https://paystack.com/docs/payments/accept-payments/") page, multiple payment flows are presented together without clear separation.
+However, on the Paystack [“Accept Payments”](https://paystack.com/docs/payments/accept-payments/) page, multiple payment flows are presented together without clear separation.
 This makes it difficult for developers to understand what steps actually apply to their use case.
 
 One critical point of confusion occurs after the payment step, what I’ll refer to as the verification confusion.
@@ -82,4 +82,6 @@ Only after this verification should you grant access or deliver value.
 ## Key Takeaway
 A successful payment flow is not complete after the user pays.
 
-It is complete only after your backend verifies the transaction.
+It is complete only after your backend verifies the transaction./
+
+The "Accept Payments" page of Paystack can better help developers with a clear separation of flows.
