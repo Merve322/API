@@ -82,6 +82,6 @@ Only after this verification should you grant access or deliver value.
 ## Key Takeaway
 A successful payment flow is not complete after the user pays.
 
-It is complete only after your backend verifies the transaction./
+It is complete only after your backend verifies the transaction.
 
 The "Accept Payments" page of Paystack can better help developers with a clear separation of flows.
