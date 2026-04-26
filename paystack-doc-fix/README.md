@@ -72,7 +72,7 @@ Follow these steps from your backend to keep your secret key secure.
 To initialise a transaction, send a POST request to Paystack’s API from your server:
 
 ```
-curl https://api.paystack.co/transaction/initialize \
+curl -X POST https://api.paystack.co/transaction/initialize \
   -H "Authorization: Bearer YOUR_SECRET_KEY" \
   -H "Content-Type: application/json" \
   -d '{
